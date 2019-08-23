@@ -1,0 +1,43 @@
+﻿<UserControl x:Name="Tablet" x:Class="LeroyMerlinClient.Table"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            mc:Ignorable="d" VerticalAlignment="Top" Loaded="Tablet_Loaded">
+    <StackPanel x:Name="ThisGrid" SizeChanged="ThisGrid_SizeChanged" Orientation="Horizontal">
+        <Grid x:Name="GridData" HorizontalAlignment="Left" Margin="0,2.5,2.5,2.5" VerticalAlignment="Top" Width="90" ToolTip="Дата" MouseLeftButtonUp="Grid_MouseLeftButtonUp" Cursor="Hand">
+            <Rectangle x:Name="GridDataR" Margin="0" Stroke="YellowGreen" Fill="#4C9ACD32"/>
+            <TextBlock x:Name="LabelData" Text="{Binding Path=Дата}" Margin="0,5" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        </Grid>
+
+        <Grid x:Name="GridArtikul" HorizontalAlignment="Left" Margin="2.5" VerticalAlignment="Top" Width="90" ToolTip="Артикул" MouseLeftButtonUp="Grid_MouseLeftButtonUp" Cursor="Hand">
+            <Rectangle x:Name="GridArtikulR" Margin="0" Stroke="YellowGreen" Fill="#4C9ACD32"/>
+            <TextBlock x:Name="LabelArtikul" Text="{Binding Path=Артикул}" Margin="0,5" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        </Grid>
+
+        <Grid x:Name="GridNameTovar" HorizontalAlignment="Left" Margin="2.5" VerticalAlignment="Top" Width="90" ToolTip="Наименование товара" MouseLeftButtonUp="Grid_MouseLeftButtonUp" Cursor="Hand">
+            <Rectangle x:Name="GridNameTovarR" Margin="0" Stroke="YellowGreen" Fill="#4C9ACD32"/>
+            <TextBlock x:Name="LabelNameTovar" Text="{Binding Path=ИмяТовара}" Margin="0,5" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        </Grid>
+
+        <Grid x:Name="GridNomber" HorizontalAlignment="Left" Margin="2.5" VerticalAlignment="Top" Width="90" ToolTip="Номер клиента" MouseLeftButtonDown="Grid_MouseLeftButtonUp" Cursor="Hand">
+            <Rectangle x:Name="GridNomberR" Margin="0" Stroke="YellowGreen" Fill="#4C9ACD32"/>
+            <TextBlock x:Name="LabelNomber" Text="{Binding Path=НомерКлиента}" Margin="0,5" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        </Grid>
+
+        <Grid x:Name="GridNameClient" HorizontalAlignment="Left" Margin="2.5" VerticalAlignment="Top" Width="90" ToolTip="Имя клиента" MouseLeftButtonDown="Grid_MouseLeftButtonUp" Cursor="Hand">
+            <Rectangle x:Name="GridNameClientR" Margin="0" Stroke="YellowGreen" Fill="#4C9ACD32"/>
+            <TextBlock x:Name="LabelNameСlient" Text="{Binding Path=ИмяКлиента}" Margin="0,5" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        </Grid>
+
+        <Grid x:Name="GridDataEnd" HorizontalAlignment="Left" Margin="2.5" VerticalAlignment="Top" Width="90" ToolTip="Дата прихода товара" MouseLeftButtonDown="Grid_MouseLeftButtonUp" Cursor="Hand">
+            <Rectangle x:Name="GridDataEndR" Margin="0" Stroke="YellowGreen" Fill="#4C9ACD32"/>
+            <TextBlock x:Name="LabelDataEnd" Text="{Binding Path=ДатаПрихода}" Margin="0,5" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        </Grid>
+
+        <Grid x:Name="GridStatus" HorizontalAlignment="Left" Margin="2.5,2.5,0,2.5" VerticalAlignment="Top" Width="90" ToolTip="Статус" MouseLeftButtonDown="Grid_MouseLeftButtonUp" Cursor="Hand">
+            <Rectangle x:Name="GridStatusR" Margin="0" Stroke="YellowGreen" Fill="#4C9ACD32"/>
+            <TextBlock x:Name="LabelStatus" Text="{Binding Path=Статус}" Margin="0,5" VerticalAlignment="Top" HorizontalAlignment="Center" />
+        </Grid>
+    </StackPanel>
+</UserControl>

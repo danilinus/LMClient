@@ -1,0 +1,78 @@
+﻿<Window x:Class="LeroyMerlinClient.AddClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeroyMerlinClient"
+        mc:Ignorable="d"
+        Title="Добавить клиента" Height="380" Width="330" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" AutomationProperties.HelpText="Введите данные в поля" Icon="Images\Add_64px.png" Closing="Window_Closing">
+    <Window.Background>
+        <SolidColorBrush Color="White"/>
+    </Window.Background>
+    <Grid x:Name="adminGrid">
+        <TextBox x:Name="Artikul" HorizontalAlignment="Left" Height="23" Margin="10,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" RenderTransformOrigin="0,0" AutomationProperties.HelpText="Артикул" BorderBrush="YellowGreen" FontSize="14" TextChanged="artickul_TextChanged" IsUndoEnabled="True" UndoLimit="20" Tag="1" SelectionBrush="YellowGreen" ToolTip="Артикул">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="NameTov" HorizontalAlignment="Left" Height="23" Margin="10,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" RenderTransformOrigin="0,0" AutomationProperties.HelpText="Наименование товара" BorderBrush="YellowGreen" FontSize="14" IsUndoEnabled="True" UndoLimit="20" Tag="2" SelectionBrush="YellowGreen" TextChanged="string_TextChanged" ToolTip="Наименование товара">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="NomberClient" HorizontalAlignment="Left" Height="23" Margin="35,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" RenderTransformOrigin="0,0" AutomationProperties.HelpText="Номер клиента" BorderBrush="YellowGreen" FontSize="14" TextChanged="nomber_TextChanged" IsUndoEnabled="True" UndoLimit="20" Tag="3" SelectionBrush="YellowGreen" ToolTip="Номер клиента">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="NameClient" HorizontalAlignment="Left" Height="23" Margin="10,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" AutomationProperties.HelpText="Имя клиента" BorderBrush="YellowGreen" FontSize="14" IsUndoEnabled="True" UndoLimit="20" Tag="4" SelectionBrush="YellowGreen" TextChanged="string_TextChanged" ToolTip="Имя клиента">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Nomber" HorizontalAlignment="Left" Height="23" Margin="10,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" AutomationProperties.HelpText="Количество" BorderBrush="YellowGreen" FontSize="14" TextChanged="int_TextChanged" IsUndoEnabled="True" UndoLimit="20" Tag="5" SelectionBrush="YellowGreen" ToolTip="Количество">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="Артикул" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" FontSize="10" Height="22"/>
+        <Label Content="Наименование товара" HorizontalAlignment="Left" Margin="10,43,0,0" VerticalAlignment="Top" FontSize="10" Height="22"/>
+        <Label Content="Номер клиента" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" FontSize="10" Height="22"/>
+        <Label Content="Имя клиента" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" FontSize="10" Height="22"/>
+        <Label Content="Количество" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" FontSize="10" Height="22"/>
+        <Label Content="Имя продавца" HorizontalAlignment="Left" Margin="10,197,0,0" VerticalAlignment="Top" FontSize="10" Height="22"/>
+        <TextBox x:Name="NameProd" HorizontalAlignment="Left" Height="23" Margin="10,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" AutomationProperties.HelpText="Имя продавца" BorderBrush="YellowGreen" FontSize="14" IsUndoEnabled="True" UndoLimit="20" Tag="6" SelectionBrush="YellowGreen" TextChanged="string_TextChanged" ToolTip="Имя продовца">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="Поставщик" HorizontalAlignment="Left" Margin="10,236,0,0" VerticalAlignment="Top" FontSize="10" Height="22"/>
+        <TextBox x:Name="Postav" HorizontalAlignment="Left" Height="23" Margin="10,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="274" AutomationProperties.HelpText="Имя продавца" SelectionBrush="YellowGreen" BorderBrush="YellowGreen" FontSize="14" IsUndoEnabled="True" UndoLimit="20" Tag="7" TextChanged="string_TextChanged" ToolTip="Поставщик">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <DatePicker x:Name="DatePick" HorizontalAlignment="Left" Margin="137,281,0,-1" VerticalAlignment="Top" Width="147" Height="24" BorderBrush="YellowGreen" ToolTip="Дата прибытия товара на склад">
+            <DatePicker.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.3"/>
+            </DatePicker.Background>
+        </DatePicker>
+        <Label Content="Дата прихода товара" HorizontalAlignment="Left" Margin="10,283,0,-6" VerticalAlignment="Top" Height="27" Width="122"/>
+        <Label Content="+7" HorizontalAlignment="Left" Margin="10,97,0,0" VerticalAlignment="Top" Width="33" FontSize="14"/>
+        <Button x:Name="Add" Content="Добавить" HorizontalAlignment="Left" Height="21" Margin="209,310,0,-27" VerticalAlignment="Top" Width="75" AutomationProperties.HelpText="Нажмите для добавления клиента в базу и для дальнейшего взаимодействия с ним" AutomationProperties.Name="Add" Click="Button_Click" IsEnabled="False" ToolTip="Добавить клиента в базу"/>
+        <Image x:Name="_1" HorizontalAlignment="Left" Height="22" Margin="288,23,0,0" VerticalAlignment="Top" Width="22" Source="Images\High Priority_48px.png" AutomationProperties.HelpText="Введёные данные не корректны" ToolTip="Введёные данные не корректны"/>
+        <Image x:Name="_2" HorizontalAlignment="Left" Height="22" Margin="288,62,0,0" VerticalAlignment="Top" Width="22" Source="Images\High Priority_48px.png" AutomationProperties.HelpText="Введёные данные не корректны" ToolTip="Введёные данные не корректны"/>
+        <Image x:Name="_3" HorizontalAlignment="Left" Height="22" Margin="288,100,0,0" VerticalAlignment="Top" Width="22" Source="Images\High Priority_48px.png" AutomationProperties.HelpText="Введёные данные не корректны" ToolTip="Введёные данные не корректны"/>
+        <Image x:Name="_4" HorizontalAlignment="Left" Height="22" Margin="288,138,0,0" VerticalAlignment="Top" Width="22" Source="Images\High Priority_48px.png" AutomationProperties.HelpText="Введёные данные не корректны" ToolTip="Введёные данные не корректны"/>
+        <Image x:Name="_5" HorizontalAlignment="Left" Height="22" Margin="288,177,0,0" VerticalAlignment="Top" Width="22" Source="Images\High Priority_48px.png" AutomationProperties.HelpText="Введёные данные не корректны" ToolTip="Введёные данные не корректны"/>
+        <Image x:Name="_6" HorizontalAlignment="Left" Height="22" Margin="288,216,0,0" VerticalAlignment="Top" Width="22" Source="Images\High Priority_48px.png" AutomationProperties.HelpText="Введёные данные не корректны" ToolTip="Введёные данные не корректны"/>
+        <Image x:Name="_7" HorizontalAlignment="Left" Height="22" Margin="288,254,0,0" VerticalAlignment="Top" Width="22" Source="Images\High Priority_48px.png" AutomationProperties.HelpText="Введёные данные не корректны" ToolTip="Введёные данные не корректны"/>
+        <Image x:Name="AvsE" HorizontalAlignment="Left" Height="21" Margin="10,310,0,0" VerticalAlignment="Top" Width="21" Source="Images/Error_48px.png" Visibility="Hidden"/>
+        <Label x:Name="AvsLbl" Content="AVS" HorizontalAlignment="Left" Margin="31,308,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <ComboBox x:Name="indexComboBox" HorizontalAlignment="Left" Margin="209,177,0,0" VerticalAlignment="Top" Width="74" SelectedIndex="0">
+            <ListBoxItem Content="штук"/>
+            <ListBoxItem Content="метров"/>
+            <ListBoxItem Content="упаковок"/>
+        </ComboBox>
+    </Grid>
+</Window>

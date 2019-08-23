@@ -1,0 +1,21 @@
+﻿<Window x:Class="LeroyMerlinClient.Find"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeroyMerlinClient"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Поиск" Height="317" Width="330.5" Icon="Images/Search_48px.png">
+    <Grid KeyUp="Grid_KeyUp">
+        <TextBox x:Name="Input" Height="20" Margin="10,10,99,0" TextWrapping="Wrap" VerticalAlignment="Top" SelectionBrush="#FF61B5E3" BorderBrush="#FF4397E7" TextChanged="Input_TextChanged">
+            <TextBox.Background>
+                <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+            </TextBox.Background>
+        </TextBox>
+        <Button x:Name="BG" Content="Поиск" HorizontalAlignment="Right" Margin="0,10,19,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="Button_Click"/>
+        <ScrollViewer Margin="10,38,19,17" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="PanelX"/>
+        </ScrollViewer>
+
+    </Grid>
+</Window>

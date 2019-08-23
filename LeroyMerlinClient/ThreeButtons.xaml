@@ -1,0 +1,14 @@
+﻿<Window x:Class="LeroyMerlinClient.ThreeButtons"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeroyMerlinClient"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Оповестить" Height="134.155" Width="311.876" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock x:Name="TextPop" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Выберите вариант оповещения:" VerticalAlignment="Top" FontSize="18" Width="271"/>
+        <Button x:Name="FirstBtn" Content="Обзвон" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="100" Background="#7F9ACD32" BorderBrush="YellowGreen"/>
+        <Button x:Name="TwBtn" Content="СМС" HorizontalAlignment="Left" Margin="181,64,0,0" VerticalAlignment="Top" Width="100" Background="#7F9ACD32" BorderBrush="YellowGreen"/>
+    </Grid>
+</Window>

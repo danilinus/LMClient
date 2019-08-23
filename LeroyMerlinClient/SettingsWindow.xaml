@@ -1,0 +1,48 @@
+﻿<Window x:Class="LeroyMerlinClient.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeroyMerlinClient"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Настройки" Height="385" Width="565" Icon="Images/Settings_48px.png" ResizeMode="NoResize">
+    <Grid>
+        <TabControl x:Name="Tabler" HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" VerticalAlignment="Top" Width="522" BorderBrush="YellowGreen" Background="{x:Null}" SelectedIndex="2">
+            <TabItem Header="Настройки приложения" IsSelected="True" Background="{x:Null}" BorderBrush="YellowGreen">
+                <Grid>
+                    <CheckBox x:Name="OpenStart" Content="Запускать программу при старте системы (только от имени администратора)" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="YellowGreen"/>
+                    <Button Content="Очитстить базу Excel" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="158" Click="Button_Click"/>
+                    <CheckBox x:Name="DelStart" Content="Удалять клиента из списка после его открытия в оповещании, при входе в программу" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="YellowGreen">
+                        <CheckBox.ToolTip>
+                            <TextBlock>
+                                В окне оповещения обзвона клиентов
+                                <LineBreak/>
+                                после открытия клиента он будет
+                                <LineBreak/>
+                                удалён из списка в окне.
+                            </TextBlock>
+                        </CheckBox.ToolTip>
+                    </CheckBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Настройка листа ожидания" BorderBrush="YellowGreen" Background="White">
+                <Grid>
+                    <Label Content="Ваш город:" Height="27" Width="118" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="Адрес магазина:" Height="27" Width="118" Margin="10,37,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="Телефон магазина:" Height="27" Width="118" Margin="10,64,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBox x:Name="Gorod" HorizontalAlignment="Left" Height="22" Margin="128,10,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="235" SelectionBrush="YellowGreen" BorderBrush="YellowGreen"/>
+                    <TextBox x:Name="Adress" HorizontalAlignment="Left" Height="22" Margin="128,37,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="235" BorderBrush="YellowGreen" SelectionBrush="YellowGreen"/>
+                    <TextBox x:Name="Telephone" HorizontalAlignment="Left" Height="22" Margin="128,64,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="235" SelectionBrush="YellowGreen" BorderBrush="YellowGreen"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Статистика" Background="{x:Null}" BorderBrush="YellowGreen">
+                <Grid>
+                    <TextBlock x:Name="StatisticMouth" Text="   Статистика за месяц:" Margin="10,10,271,52"/>
+                    <TextBlock x:Name="Statistic" Text="   Общая статистика:" Margin="250,10,10,52"/>
+                    <Label x:Name="TovarP" Content="Самый продоваемый товар:" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button x:Name="SaveBtn" Content="Сохранить" HorizontalAlignment="Left" Margin="457,315,0,0" VerticalAlignment="Top" Width="75" Click="SaveBtn_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,147 @@
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\Messages.exe.config
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\Messages.exe
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\Messages.pdb
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages.csprojResolveAssemblyReference.cache
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\MainWindow.g.cs
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\App.g.cs
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages_MarkupCompile.cache
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages_MarkupCompile.lref
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\MainWindow.baml
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages.g.resources
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages.Properties.Resources.resources
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages.csproj.GenerateResource.Cache
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages.exe
+c:\users\thelow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages.pdb
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\AngleSharp.dll
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\JetBrains.Annotations.dll
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\VkNet.UWP.dll
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\AngleSharp.xml
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\JetBrains.Annotations.xml
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\bin\Debug\VkNet.UWP.xml
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\SmmS.g.cs
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\SmmS.baml
+C:\Users\TheLow\documents\visual studio 2017\Projects\Messages\Messages\obj\Debug\Messages.csproj.CoreCompileInputs.cache
+C:\Users\TheLow\Documents\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Capcha.g.cs
+C:\Users\TheLow\Documents\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Capcha.baml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\Messages.exe.config
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\Messages.exe
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\Messages.pdb
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\AngleSharp.dll
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\JetBrains.Annotations.dll
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\Newtonsoft.Json.dll
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\VkNet.UWP.dll
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\AngleSharp.xml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\JetBrains.Annotations.xml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\Newtonsoft.Json.xml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\bin\Debug\VkNet.UWP.xml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages.csprojResolveAssemblyReference.cache
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Capcha.g.cs
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\MainWindow.g.cs
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\SmmS.g.cs
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\App.g.cs
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages_MarkupCompile.cache
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages_MarkupCompile.lref
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Capcha.baml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\MainWindow.baml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\SmmS.baml
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages.g.resources
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages.Properties.Resources.resources
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages.csproj.GenerateResource.Cache
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages.csproj.CoreCompileInputs.cache
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages.exe
+E:\Временные файлы\Visual Studio 2017\Projects\Messages\Messages\obj\Debug\Messages.pdb
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\AngleSharp.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\JetBrains.Annotations.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\AngleSharp.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\JetBrains.Annotations.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Messages.csprojResolveAssemblyReference.cache
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Capcha.g.cs
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\MainWindow.g.cs
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\SmmS.g.cs
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\App.g.cs
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Capcha.baml
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\MainWindow.baml
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\SmmS.baml
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Messages.Properties.Resources.resources
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Messages.csproj.GenerateResource.Cache
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Messages.csproj.CoreCompileInputs.cache
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\LeroyMerlinClient.exe
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\LeroyMerlinClient.pdb
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\LeroyMerlinClient.exe.config
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\shari.exe.config
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\shari.exe
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\shari.pdb
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari_MarkupCompile.cache
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari_MarkupCompile.lref
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari.g.resources
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari.exe
+E:\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari.pdb
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\HtmlAgilityPack.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Extensions.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Primitives.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\VkNet.dll
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\HtmlAgilityPack.pdb
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\HtmlAgilityPack.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Extensions.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Primitives.xml
+E:\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\VkNet.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\shari.exe.config
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\shari.exe
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\shari.pdb
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\AngleSharp.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\HtmlAgilityPack.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\JetBrains.Annotations.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\LeroyMerlinClient.exe
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Newtonsoft.Json.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Extensions.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Primitives.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\VkNet.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\LeroyMerlinClient.pdb
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\AngleSharp.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\HtmlAgilityPack.pdb
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\HtmlAgilityPack.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\JetBrains.Annotations.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Newtonsoft.Json.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Extensions.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\System.Net.Http.Primitives.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\VkNet.xml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Messages.csprojResolveAssemblyReference.cache
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Capcha.g.cs
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\MainWindow.g.cs
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\SmmS.g.cs
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\App.g.cs
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari_MarkupCompile.cache
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari_MarkupCompile.lref
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Capcha.baml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\MainWindow.baml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\SmmS.baml
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari.g.resources
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Messages.Properties.Resources.resources
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\Messages.csproj.GenerateResource.Cache
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari.exe
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\obj\Debug\shari.pdb
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+F:\данила\Projects\Заказы\LMClient\Messages\Messages\bin\Debug\LeroyMerlinClient.exe.config

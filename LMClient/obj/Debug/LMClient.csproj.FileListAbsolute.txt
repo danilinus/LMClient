@@ -1,0 +1,49 @@
+E:\Projects\Заказы\LMClient\LMClient\bin\Debug\LM Client.exe.config
+E:\Projects\Заказы\LMClient\LMClient\bin\Debug\LM Client.exe
+E:\Projects\Заказы\LMClient\LMClient\bin\Debug\LM Client.pdb
+E:\Projects\Заказы\LMClient\LMClient\bin\Debug\JetBrains.Annotations.dll
+E:\Projects\Заказы\LMClient\LMClient\bin\Debug\JetBrains.Annotations.xml
+E:\Projects\Заказы\LMClient\LMClient\bin\Debug\Office.dll
+E:\Projects\Заказы\LMClient\LMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.csproj.ResolveComReference.cache
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Add_Client_Form.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Find.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.FindError.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Form1.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.InfoClient.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.LogAdmin.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.LoginIn.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.Properties.Resources.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Razrabi.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.SMSForm.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.StartInfo.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.VLog.resources
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.csproj.GenerateResource.Cache
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.csproj.CoreCompileInputs.cache
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LM Client.exe
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LM Client.pdb
+E:\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.csprojResolveAssemblyReference.cache
+F:\данила\Projects\Заказы\LMClient\LMClient\bin\Debug\LM Client.exe.config
+F:\данила\Projects\Заказы\LMClient\LMClient\bin\Debug\LM Client.exe
+F:\данила\Projects\Заказы\LMClient\LMClient\bin\Debug\LM Client.pdb
+F:\данила\Projects\Заказы\LMClient\LMClient\bin\Debug\JetBrains.Annotations.dll
+F:\данила\Projects\Заказы\LMClient\LMClient\bin\Debug\JetBrains.Annotations.xml
+F:\данила\Projects\Заказы\LMClient\LMClient\bin\Debug\Office.dll
+F:\данила\Projects\Заказы\LMClient\LMClient\bin\Debug\Microsoft.Office.Interop.Excel.dll
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.csprojResolveAssemblyReference.cache
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.csproj.ResolveComReference.cache
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Add_Client_Form.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Find.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.FindError.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Form1.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.InfoClient.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.LogAdmin.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.LoginIn.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.Properties.Resources.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.Razrabi.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.SMSForm.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\Client.StartInfo.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.VLog.resources
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LMClient.csproj.GenerateResource.Cache
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LM Client.exe
+F:\данила\Projects\Заказы\LMClient\LMClient\obj\Debug\LM Client.pdb

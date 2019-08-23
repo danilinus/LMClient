@@ -1,0 +1,16 @@
+﻿<Window x:Class="LeroyMerlinClient.LoginIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeroyMerlinClient"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Помощь" Height="200" Width="305">
+    <Grid>
+        <Label Content="Имя:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="272" SelectionBrush="YellowGreen" BorderBrush="YellowGreen"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="10,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="272" SelectionBrush="YellowGreen" BorderBrush="YellowGreen"/>
+        <Label Content="Номер магазина:" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button2" Content="Задать вопрос" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="272" Click="button2_Click" Background="#7F9ACD32" BorderBrush="#7F9ACD32"/>
+    </Grid>
+</Window>

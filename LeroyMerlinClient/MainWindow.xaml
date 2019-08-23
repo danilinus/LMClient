@@ -1,0 +1,143 @@
+﻿<Window x:Class="LeroyMerlinClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeroyMerlinClient"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Leroy Merlin Client" Height="302" Width="782" MinWidth="782" MinHeight="270" Icon="haba.ico" Closing="Window_Closing" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded">
+    <Grid x:Name="Gridi">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/123.png" Opacity="0.2" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid x:Name="Tablet" Height="30" Margin="10,30,17,0" VerticalAlignment="Top" MouseEnter="Tablet_MouseEnter" MouseLeave="Tablet_MouseLeave" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60*" MinWidth="60"/>
+                <ColumnDefinition Width="85*" MinWidth="70"/>
+                <ColumnDefinition Width="120*" MinWidth="120"/>
+                <ColumnDefinition Width="100*" MinWidth="100"/>
+                <ColumnDefinition Width="80*" MinWidth="80"/>
+                <ColumnDefinition Width="65*" MinWidth="60"/>
+                <ColumnDefinition Width="60*" MinWidth="60"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Column="0" Margin="0" Stroke="YellowGreen" ToolTip="Дата добавления клиента в базу" >
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Text="Дата" Grid.Column="0" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+            <Rectangle Grid.Column="1" Margin="0" Stroke="YellowGreen">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Text="Артикул" Grid.Column="1" Margin="0" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Rectangle Grid.Column="2" Margin="0" Stroke="YellowGreen">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Text="Наименование товара" Grid.Column="2" Margin="0" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Rectangle Grid.Column="3" Margin="0" Stroke="YellowGreen">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Text="Номер клиента" Grid.Column="3" Margin="0" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Rectangle Grid.Column="4" Margin="0" Stroke="YellowGreen">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Text="Имя клиента" Grid.Column="4" Margin="0" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Rectangle Grid.Column="5" Margin="0" Stroke="YellowGreen">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Text="Дата прихода товара" Grid.Column="5" Margin="0" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold" ToolTip="Дата прибытия товара на склад"/>
+            <Rectangle Grid.Column="6" Margin="0" Stroke="YellowGreen" ToolTip="Текущий статус">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="YellowGreen" Opacity="0.5"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock Text="Статус" Grid.Column="6" Margin="0" VerticalAlignment="Center" TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <GridSplitter x:Name="G1" Grid.Column="1" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Margin="-1,0,0,0" Background="YellowGreen" Width="1" MouseLeftButtonUp="G1_MouseLeftButtonUp"/>
+            <GridSplitter x:Name="G2" Grid.Column="2" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="1" Margin="-1,0,0,0" Background="YellowGreen" MouseLeftButtonUp="G1_MouseLeftButtonUp"/>
+            <GridSplitter x:Name="G3" Grid.Column="3" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="1" Margin="-1,0,0,0" Background="YellowGreen" MouseLeftButtonUp="G1_MouseLeftButtonUp"/>
+            <GridSplitter x:Name="G4" Grid.Column="4" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="1" Margin="-1,0,0,0" Background="YellowGreen" MouseLeftButtonUp="G1_MouseLeftButtonUp"/>
+            <GridSplitter x:Name="G5" Grid.Column="5" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="1" Margin="-1,0,0,0" Background="YellowGreen" MouseLeftButtonUp="G1_MouseLeftButtonUp"/>
+            <GridSplitter x:Name="G6" Grid.Column="6" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="1" Margin="-1,0,0,0" Background="YellowGreen" MouseLeftButtonUp="G1_MouseLeftButtonUp"/>
+
+        </Grid>
+        <Menu Height="25" VerticalAlignment="Top">
+            <Menu.Background>
+                <SolidColorBrush Color="#B29ACD32" Opacity="0.7"/>
+            </Menu.Background>
+            <MenuItem Header="Добавить клиента" Margin="5,1" Click="MenuItem_Click_1">
+                <MenuItem.Icon>
+                    <Image Source="Images\Add User Male_48px.png" Height="18" Width="18"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Настройки" Margin="5,1">
+                <MenuItem Header="Создать новую базу" Background="#CC9ACD32" Click="MenuItem_Click_3" >
+                    <MenuItem.Icon>
+                        <Image Source="Images\Create_48px.png" Height="18" Width="18"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Открыть базу" Background="#CC9ACD32" Click="MenuItem_Click_4" >
+                    <MenuItem.Icon>
+                        <Image Source="Images\Open_48px.png" Height="18" Width="18"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Сохранить базу как" Background="#CC9ACD32" Click="MenuItem_Click_5" >
+                    <MenuItem.Icon>
+                        <Image Source="Images\Save as_48px.png" Height="18" Width="18"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Выбор гаммы товара с Pixys'a" Background="#CC9ACD32" Click="MenuItem_Click_10">
+                    <MenuItem.Icon>
+                        <Image Source="Images\Microsoft Excel_48px.png" Height="18" Width="18"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Настройка приложения" Background="#CC9ACD32" Click="MenuItem_Click_2">
+                    <MenuItem.Icon>
+                        <Image Source="Images\Settings_48px.png" Height="18" Width="18"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem.Icon>
+                    <Image Source="Images\Support_48px.png" Height="16" Width="16"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Разработчики"  Margin="5,1" Click="MenuItem_Click">
+                <MenuItem.Icon>
+                    <Image Source="Images\Developer_48px.png" Height="16" Width="16"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Поиск"  Margin="5,1" Click="MenuItem_Click_6">
+                <MenuItem.Icon>
+                    <Image Source="Images\Search_48px.png" Height="16" Width="16"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="СМС Кабинет"  Margin="5,1" Click="MenuItem_Click_9">
+                <MenuItem.Icon>
+                    <Image Source="Images/Collaboration_48px.png" Height="16" Width="16"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Онлайн-чат помощь"  Margin="5,1" Click="MenuItem_Click_8">
+                <MenuItem.Icon>
+                    <Image Source="Images/Online Support_48px.png" Height="16" Width="16"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem Header="Сканировать приход товара"  Margin="5,1" Click="MenuItem_Click_12">
+                <MenuItem.Icon>
+                    <Image Source="Images\Microsoft Excel_48px.png" Height="16" Width="16"/>
+                </MenuItem.Icon>
+            </MenuItem>
+        </Menu>
+        <ScrollViewer x:Name="Scotty" Margin="10,60,0,10" VerticalScrollBarVisibility="Auto" HorizontalContentAlignment="Stretch">
+            <StackPanel x:Name="Components">
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

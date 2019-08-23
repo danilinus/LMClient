@@ -1,0 +1,33 @@
+﻿<Window x:Class="LeroyMerlinClient.SMSCabinet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeroyMerlinClient"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="СМС кабинет" Height="278" Width="657" Icon="Images/Customer_64px.png" ResizeMode="NoResize" Loaded="SMSCabinet_Load" Closing="Window_Closing">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="70" Margin="10,10,0,0" Stroke="YellowGreen" VerticalAlignment="Top" Width="271"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="21,23,0,0" VerticalAlignment="Top" Width="122"/>
+        <Button x:Name="Reboot" Content="Войти" HorizontalAlignment="Left" Margin="148,49,0,0" VerticalAlignment="Top" Width="122" Height="23" BorderBrush="YellowGreen" Background="#669ACD32" Click="Reboot_Click"/>
+        <Label Content="Статистика:" HorizontalAlignment="Left" Margin="286,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль менеджера:" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="133"/>
+        <Label Content="Новое значение:" HorizontalAlignment="Left" Margin="148,101,0,0" VerticalAlignment="Top" Width="133"/>
+        <RichTextBox HorizontalAlignment="Left" Height="196" Margin="286,36,0,0" VerticalAlignment="Top" Width="344" SelectionBrush="YellowGreen" BorderBrush="YellowGreen" Background="#FFF4F4F5">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="richTextBox1" Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="10,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" SelectionBrush="YellowGreen" BorderBrush="YellowGreen"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="148,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" SelectionBrush="YellowGreen" BorderBrush="YellowGreen"/>
+        <Button x:Name="button1" Content="Применить" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" Width="87" Height="32" BorderBrush="YellowGreen" Background="#669ACD32" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Баланс" HorizontalAlignment="Left" Margin="102,155,0,0" VerticalAlignment="Top" Width="82" Height="32" BorderBrush="YellowGreen" Background="#669ACD32" Click="button2_Click"/>
+        <Button x:Name="button3" Content="Лимит СМС" HorizontalAlignment="Left" Margin="189,155,0,0" VerticalAlignment="Top" Width="92" Height="32" BorderBrush="YellowGreen" Background="#669ACD32" Click="button3_Click"/>
+        <Button x:Name="button4" Content="Сменить пароль" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Width="271" Height="23" BorderBrush="YellowGreen" Background="#669ACD32" Click="button4_Click"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="10,183,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="PasstextBox" HorizontalAlignment="Left" Margin="21,49,0,0" VerticalAlignment="Top" Width="122" SelectionBrush="YellowGreen" BorderBrush="YellowGreen" Height="23"/>
+
+    </Grid>
+</Window>
