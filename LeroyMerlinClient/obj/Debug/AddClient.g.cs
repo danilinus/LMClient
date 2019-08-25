@@ -245,7 +245,7 @@ namespace LeroyMerlinClient {
             this.Artikul = ((System.Windows.Controls.TextBox)(target));
             
             #line 13 "..\..\AddClient.xaml"
-            this.Artikul.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.artickul_TextChanged);
+            this.Artikul.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.Artickul_TextChanged);
             
             #line default
             #line hidden

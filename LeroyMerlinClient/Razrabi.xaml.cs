@@ -2,12 +2,12 @@
 
 namespace LeroyMerlinClient
 {
-    public partial class Razrabi : Window
-    {
-        public Razrabi()
-        {
-            InitializeComponent();
-            Owner = Win.mainWindow;
-        }
-    }
+	public partial class Razrabi : Window
+	{
+		public Razrabi()
+		{
+			InitializeComponent();
+			Owner = Win.mainWindow;
+		}
+	}
 }

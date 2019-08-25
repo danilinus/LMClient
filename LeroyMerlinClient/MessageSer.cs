@@ -2,9 +2,9 @@
 
 namespace LeroyMerlinClient
 {
-    [Serializable]
-    public class MessageSer
-    {
-        public string nns = "", ln = "", ps = "";
-    }
+	[Serializable]
+	public class MessageSer
+	{
+		public string nns = "", ln = "", ps = "";
+	}
 }
